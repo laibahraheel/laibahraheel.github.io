@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+## MICROSERVICES ARCHITECTURE
 
-You can use the [editor on GitHub](https://github.com/laibahraheel/laibahraheel.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### What is Microservices Architecture?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Microservices Architecture is a software development technique. It is a service oriented architecture (SOA) architectural style that structures an application as a collection of services that are 
+*	Highly maintainable and testable using HTTP.
+*	Loosely coupled-means dependency between modules is very low.
+*	Independent deployable.
+*	Organized around business capabilities.
+*	Owned by a small team.
+It enables rapid, frequent and reliable delivery of large complex applications and also enables an organization to evolve its technology stack. In Microservices Architecture, services are fine grained and protocols are lightweight.
 
-### Markdown
+### Difference between Microservices and Monolithic Architecture:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+*	Microservices Architecture is built as a suit of small services each with their own code base whereas Monolithic Architecture is built as one large system and is usually on code base.
+*	Microservices Architecture is independent deployable however monolithic Architecture is often deployed all at once, regardless of what was changed in code.
 
-```markdown
-Syntax highlighted code block
+### Advantages:
 
-# Header 1
-## Header 2
-### Header 3
+*	Modularity: This makes the application easier to understand, develop, test, and become more resilient to architecture erosion.
+*	Scalability: Since microservices are implemented and deployed independently of each other.
+*	Distributed development: It parallelizes development by enabling small autonomous teams to develop, deploy and scale their respective services independently.
 
-- Bulleted
-- List
+### Diadvantages:
 
-1. Numbered
-2. List
+*	Distributed System: By the fact that Microservices Architecture is a distributed system it adds complexities to the project.
+*	Testing a microservices application is also much more complex than in case of monolithic web application.
+*	It is more difficult to implement changes that span multiple services because in microservices Architecture you need to carefully plan and coordinate the rollout of changes to each of the services. 
+*	Deploying a microservices based application is also more complex because microservices application typically consists of a large number of services and each service will have multiple runtime instances.
 
-**Bold** and _Italic_ and `Code` text
+### Conclusion:
 
-[Link](url) and ![Image](src)
-```
+Microservices Architecture pattern is the better choice for complex, evolving applications. Actually the microservices approach is all about handling a complex system, but in order to do so the approach introduces its own set of complexities and implementation challenges.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/laibahraheel/laibahraheel.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
